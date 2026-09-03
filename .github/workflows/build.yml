@@ -41,7 +41,7 @@ jobs:
         run: flutter build apk --release
       
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pharmacy-scanner-apk
           path: build/app/outputs/flutter-app.apk
